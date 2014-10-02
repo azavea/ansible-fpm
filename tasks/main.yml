@@ -1,0 +1,6 @@
+---
+- name: Install FPM
+  gem: name=fpm
+       version={{ fpm_version }}
+       user_install=no
+       state=present
