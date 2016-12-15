@@ -1,5 +1,7 @@
 ---
 - name: Install FPM
+  environment:
+    PATH: /usr/local/bin:{{ ansible_env.PATH }}
   gem: name=fpm
        version={{ fpm_version }}
        user_install=no
