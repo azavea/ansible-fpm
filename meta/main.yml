@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: Hector Castro
+  author: Tim Jacomb
   description: An Ansible role for installing FPM.
-  company: Azavea Inc.
+  company:
   license: Apache
   min_ansible_version: 1.2
   platforms:
