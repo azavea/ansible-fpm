@@ -1,3 +1,7 @@
 .vagrant
+.molecule
+*.swp
+.cache
+__pycache__
+*.pyc
 
-examples/roles/azavea.ruby
